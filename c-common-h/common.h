@@ -6,12 +6,10 @@
 #include <Windows.h>
 #include <tchar.h>
 #define OS _T("Windows")
-#define length(X) lstrlen(X)
 
 #elif __linux__
 //Linux define
 #define OS "linux"
-#define length(X) strlen(X)
 
 #elif __APPLE__
 //Darwin define
